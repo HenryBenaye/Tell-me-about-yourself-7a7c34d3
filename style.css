@@ -1,0 +1,27 @@
+#inputVeld{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+#manBox,#dinBox,#woenBox,#donBox,#vrijBox,#zatBox,#zonBox{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 100px;
+
+}
+
+#sub{
+    margin-top: 20px;
+}
